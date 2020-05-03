@@ -27,6 +27,13 @@ function App() {
           for a friend who wanted to make sure all of their students were called
           on in class while still using random selection.
         </Project>
+        <Project url="https://groupclap.herokuapp.com/" title="groupclap">
+          Clapping together has never been easier!{" "}
+          <i>
+            (unless you're all physically in the same room together... in which
+            case it's much easier)
+          </i>
+        </Project>
         <Project
           url="https://whatdayisit.frank.dev/"
           title="whatdayisit.frank.dev"
