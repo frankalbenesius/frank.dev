@@ -6,19 +6,44 @@ function App() {
   return (
     <div className="App">
       <h1>Frank Albenesius</h1>
-      <Art />
       <div className="Links">
-        <h2>Links</h2>
-        <a href="https://www.github.com/frankalbenesius/">github</a>
-        <a href="https://www.instagram.com/frankalbenesius/">instagram</a>
-        <a href="mailto:frankalbenesius@gmail.com">email</a>
+        <a href="https://www.github.com/frankalbenesius/">Github</a>
+        <a href="https://www.instagram.com/frankalbenesius/">Instagram</a>
+        <a href="mailto:frankalbenesius@gmail.com">Email</a>
       </div>
+      <Art />
       <div>
         <h2>Projects</h2>
-        <div>ASOIAFBuilder</div>
-        <div>GIFs</div>
-        <div>Spinner</div>
+        <Project url="https://ASOIAFBuilder.com" title="ASOIAFBuilder.com">
+          An army manager for the A Song of Ice & Fire: Tabletop Miniatures
+          Game. Originally built as a side project for my brother, this app had
+          over 20,000 unique visitors in 2019.
+        </Project>
+        <Project url="https://gifs.frank.dev" title="gifs.frank.dev">
+          Quickly record and download gifs of yourself.
+        </Project>
+        <Project url="https://spinner.frank.dev" title="spinner.frank.dev">
+          A "spinner" that changes its probabilities based on history. Designed
+          for a friend who wanted to make sure all of their students were called
+          on in class while still using random selection.
+        </Project>
+        <Project
+          url="https://whatdayisit.frank.dev/"
+          title="whatdayisit.frank.dev"
+        >
+          Because remembering things during a pandemic is hard.
+        </Project>
       </div>
+    </div>
+  );
+}
+
+function Project(props) {
+  return (
+    <div style={{ width: "100%", maxWidth: "30rem", margin: "0 auto 1rem" }}>
+      <a href={props.url}>{props.title}</a>
+      <br />
+      {props.children}
     </div>
   );
 }

@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  margin: 1rem;
+  padding: 2rem 1rem;
   font-family: "Jost", sans-serif;
 }
 
 .Links > a {
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 h1,
