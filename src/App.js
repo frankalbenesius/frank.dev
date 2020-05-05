@@ -19,6 +19,13 @@ function App() {
           Game. Originally built as a side project for my brother, this app had
           over 20,000 unique visitors in 2019.
         </Project>
+        <Project url="https://poster.frank.dev" title="The Year Was 2019">
+          <i>A Visual Time Capsule & Grass-Fed Collaborative Experience</i>
+          <div>
+            To celebrate the new year, I asked 72 friends and family to
+            participate in a collaborative poster-building project.
+          </div>
+        </Project>
         <Project url="https://gifs.frank.dev" title="gifs.frank.dev">
           Quickly record and download gifs of yourself.
         </Project>
