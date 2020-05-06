@@ -34,6 +34,9 @@ function App() {
           for a friend who wanted to make sure all of their students were called
           on in class while still using random selection.
         </Project>
+        <Project url="https://table.frank.dev" title="Dire Table">
+          A minimal virtual tabletop for D&D and other RPGs.
+        </Project>
         <Project url="https://groupclap.herokuapp.com/" title="groupclap">
           Clapping together has never been easier!{" "}
           <i>
