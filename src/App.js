@@ -14,12 +14,14 @@ function App() {
       <Art />
       <div>
         <h2>Projects</h2>
-        <Project url="https://ASOIAFBuilder.com" title="ASOIAFBuilder.com">
-          An army manager for the A Song of Ice & Fire: Tabletop Miniatures
-          Game. Originally built as a side project for my brother, this app had
-          over 20,000 unique visitors in 2019.
+        <Project
+          url="https://poster2020.frank.dev"
+          title="Something Good About 2020"
+        >
+          <i>A Visual Time Capsule & Annual Frank Tradition</i>
+          <div>The 2020 iteration of the 2019 poster idea.</div>
         </Project>
-        <Project url="https://poster.frank.dev" title="The Year Was 2019">
+        <Project url="https://poster2019.frank.dev" title="The Year Was 2019">
           <i>A Visual Time Capsule & Grass-Fed Collaborative Experience</i>
           <div>
             To celebrate the new year, I asked 72 friends and family to
