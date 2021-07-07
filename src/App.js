@@ -5,7 +5,7 @@ import Art from "./Art";
 function App() {
   return (
     <div className="App">
-      <h1>Frank Albenesius</h1>
+      <h1>Frank Albenesius is smelly</h1>
       <div className="Links">
         <a href="https://www.github.com/frankalbenesius/">Github</a>
         <a href="https://www.instagram.com/frankalbenesius/">Instagram</a>
