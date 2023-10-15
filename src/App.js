@@ -11,6 +11,11 @@ function App() {
         <a href="https://www.instagram.com/frankalbenesius/">Instagram</a>
         <a href="mailto:frankalbenesius@gmail.com">Email</a>
       </div>
+      <div>
+        <a href="https://buttondown.email/frankdev?tag=website">
+          Subscribe to my newsletter
+        </a>
+      </div>
       <Art />
       <div>
         <h2>Projects</h2>
