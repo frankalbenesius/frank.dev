@@ -33,8 +33,13 @@ function App() {
             participate in a collaborative poster-building project.
           </div>
         </Project>
-        <Project url="https://gifs.frank.dev" title="gifs.frank.dev">
-          Quickly record and download gifs of yourself.
+        <Project url="https://joesbirds.com" title="Joe's Birds">
+          My friend Joe needed a place to put his birds. A Contentful CMS
+          triggers Netlify deployments on updates.
+        </Project>
+        <Project url="https://everybeef.com" title="every beef">
+          Your one-stop shop for all hex colors that include the word "beef".
+          Try beefifying an image!
         </Project>
         <Project url="https://spinner.frank.dev" title="spinner.frank.dev">
           A "spinner" that changes its probabilities based on history. Designed
@@ -42,20 +47,33 @@ function App() {
           on in class while still using random selection.
         </Project>
         <Project url="https://table.frank.dev" title="Dire Table">
-          A minimal virtual tabletop for D&D and other RPGs.
+          A minimal virtual tabletop for D&D and other RPGs. Roll dice. Move
+          tokens. Draw basic maps.
         </Project>
-        <Project url="https://groupclap.herokuapp.com/" title="groupclap">
-          Clapping together has never been easier!{" "}
-          <i>
-            (unless you're all physically in the same room together... in which
-            case it's much easier)
-          </i>
+        <Project url="https://gifs.frank.dev" title="gifs.frank.dev">
+          Scrappy tool for recording gifs of yourself.
+        </Project>
+        <Project url="https://chords.frank.dev" title="chords.frank.dev">
+          A tiny tool to help me generate and practice random chord
+          progressions.
         </Project>
         <Project
           url="https://whatdayisit.frank.dev/"
           title="whatdayisit.frank.dev"
         >
-          Because remembering things during a pandemic is hard.
+          Because remembering things during the pandemic was hard.
+        </Project>
+        <Project
+          url="https://github.com/frankalbenesius/plotter-sketches"
+          title="plotter-sketches"
+        >
+          A repository of some code I used to generate SVGs for pen plotting.
+          <br />
+          Examples:&nbsp;
+          <a href="https://www.instagram.com/p/BxVwG_ZDG2c/">One</a>,&nbsp;
+          <a href="https://www.instagram.com/p/BxSSP4pDbgi/">Two</a>
+          ,&nbsp;
+          <a href="https://www.instagram.com/p/BygOLPPjfTK/">Three</a>
         </Project>
       </div>
     </div>
