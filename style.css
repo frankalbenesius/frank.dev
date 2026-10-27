@@ -1,14 +1,86 @@
 :root {
   color-scheme: light dark;
-  background: #f7f7f4;
-  color: #242422;
-  font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas,
-    "Liberation Mono", monospace;
+  background: #fff;
+  color: #292929;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  --link-color: #1768b2;
+  --muted-color: #626262;
+  --rule-color: #e8e8e8;
+}
+
+body {
+  max-width: 36rem;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+header p {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 4px;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li + li {
+  margin-top: 1rem;
+}
+
+.projects p {
+  margin: 0.1rem 0 0;
+  color: var(--muted-color);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 40rem) {
+  body {
+    margin: 2rem auto;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background: #1b1b19;
-    color: #e7e7df;
+    background: #202124;
+    color: #e8e8e8;
+    --link-color: #8ab4f8;
+    --muted-color: #b4b4b4;
+    --rule-color: #3c3c3c;
   }
 }
